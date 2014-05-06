@@ -46,10 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraController3D.cs" />
-     <Compile Include="Assets\HeroController.cs" />
-     <Compile Include="Assets\ManaKnightController.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\CameraController3D.cs" />
+     <Compile Include="Assets\Scripts\HeroController.cs" />
+     <Compile Include="Assets\Scripts\ManaKnightController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
