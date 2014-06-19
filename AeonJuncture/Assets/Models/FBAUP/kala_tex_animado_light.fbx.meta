@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: 0f6536c796b9e104fb83d1ebb51afc6a
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arm_left_001
+    100002: arm_right
+    100004: armature
+    100006: body_final_001
+    100008: bottom_leg_left
+    100010: bottom_leg_right
+    100012: Camera
+    100014: elbow_left
+    100016: elbow_right
+    100018: foot_left
+    100020: foot_right
+    100022: forearm_left
+    100024: forearm_right
+    100026: hand_left
+    100028: hand_right
+    100030: head
+    100032: heel_left
+    100034: heel_right
+    100036: //RootNode
+    100038: knee_left
+    100040: knee_right
+    100042: leg_left
+    100044: leg_right
+    100046: mana_sword_hand
+    100048: torso
+    400000: arm_left_001
+    400002: arm_right
+    400004: armature
+    400006: body_final_001
+    400008: bottom_leg_left
+    400010: bottom_leg_right
+    400012: Camera
+    400014: elbow_left
+    400016: elbow_right
+    400018: foot_left
+    400020: foot_right
+    400022: forearm_left
+    400024: forearm_right
+    400026: hand_left
+    400028: hand_right
+    400030: head
+    400032: heel_left
+    400034: heel_right
+    400036: //RootNode
+    400038: knee_left
+    400040: knee_right
+    400042: leg_left
+    400044: leg_right
+    400046: mana_sword_hand
+    400048: torso
+    4300000: mana_sword_hand
+    4300002: body_final_001
+    7400000: Default Take
+    7400002: armatureAction
+    7400004: Idle
+    7400006: Walk
+    7400008: Hit
+    7400010: Attack
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: body_final_001
+    13700002: mana_sword_hand
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/arm_left_001
+        weight: 1
+      - path: armature/arm_left_001/forearm_left
+        weight: 1
+      - path: armature/arm_right
+        weight: 1
+      - path: armature/arm_right/forearm_right
+        weight: 1
+      - path: armature/elbow_left
+        weight: 1
+      - path: armature/elbow_right
+        weight: 1
+      - path: armature/hand_left
+        weight: 1
+      - path: armature/hand_right
+        weight: 1
+      - path: armature/heel_left
+        weight: 1
+      - path: armature/heel_left/foot_left
+        weight: 1
+      - path: armature/heel_right
+        weight: 1
+      - path: armature/heel_right/foot_right
+        weight: 1
+      - path: armature/knee_left
+        weight: 1
+      - path: armature/knee_right
+        weight: 1
+      - path: armature/leg_left
+        weight: 1
+      - path: armature/leg_left/bottom_leg_left
+        weight: 1
+      - path: armature/leg_right
+        weight: 1
+      - path: armature/leg_right/bottom_leg_right
+        weight: 1
+      - path: armature/torso
+        weight: 1
+      - path: armature/torso/head
+        weight: 1
+      - path: body_final_001
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: mana_sword_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: armatureAction
+      takeName: armatureAction
+      firstFrame: 0
+      lastFrame: 149
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/arm_left_001
+        weight: 1
+      - path: armature/arm_left_001/forearm_left
+        weight: 1
+      - path: armature/arm_right
+        weight: 1
+      - path: armature/arm_right/forearm_right
+        weight: 1
+      - path: armature/elbow_left
+        weight: 1
+      - path: armature/elbow_right
+        weight: 1
+      - path: armature/hand_left
+        weight: 1
+      - path: armature/hand_right
+        weight: 1
+      - path: armature/heel_left
+        weight: 1
+      - path: armature/heel_left/foot_left
+        weight: 1
+      - path: armature/heel_right
+        weight: 1
+      - path: armature/heel_right/foot_right
+        weight: 1
+      - path: armature/knee_left
+        weight: 1
+      - path: armature/knee_right
+        weight: 1
+      - path: armature/leg_left
+        weight: 1
+      - path: armature/leg_left/bottom_leg_left
+        weight: 1
+      - path: armature/leg_right
+        weight: 1
+      - path: armature/leg_right/bottom_leg_right
+        weight: 1
+      - path: armature/torso
+        weight: 1
+      - path: armature/torso/head
+        weight: 1
+      - path: body_final_001
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: mana_sword_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Default Take
+      firstFrame: 13
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/arm_left_001
+        weight: 1
+      - path: armature/arm_left_001/forearm_left
+        weight: 1
+      - path: armature/arm_right
+        weight: 1
+      - path: armature/arm_right/forearm_right
+        weight: 1
+      - path: armature/elbow_left
+        weight: 1
+      - path: armature/elbow_right
+        weight: 1
+      - path: armature/hand_left
+        weight: 1
+      - path: armature/hand_right
+        weight: 1
+      - path: armature/heel_left
+        weight: 1
+      - path: armature/heel_left/foot_left
+        weight: 1
+      - path: armature/heel_right
+        weight: 1
+      - path: armature/heel_right/foot_right
+        weight: 1
+      - path: armature/knee_left
+        weight: 1
+      - path: armature/knee_right
+        weight: 1
+      - path: armature/leg_left
+        weight: 1
+      - path: armature/leg_left/bottom_leg_left
+        weight: 1
+      - path: armature/leg_right
+        weight: 1
+      - path: armature/leg_right/bottom_leg_right
+        weight: 1
+      - path: armature/torso
+        weight: 1
+      - path: armature/torso/head
+        weight: 1
+      - path: body_final_001
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: mana_sword_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Default Take
+      firstFrame: 50
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/arm_left_001
+        weight: 1
+      - path: armature/arm_left_001/forearm_left
+        weight: 1
+      - path: armature/arm_right
+        weight: 1
+      - path: armature/arm_right/forearm_right
+        weight: 1
+      - path: armature/elbow_left
+        weight: 1
+      - path: armature/elbow_right
+        weight: 1
+      - path: armature/hand_left
+        weight: 1
+      - path: armature/hand_right
+        weight: 1
+      - path: armature/heel_left
+        weight: 1
+      - path: armature/heel_left/foot_left
+        weight: 1
+      - path: armature/heel_right
+        weight: 1
+      - path: armature/heel_right/foot_right
+        weight: 1
+      - path: armature/knee_left
+        weight: 1
+      - path: armature/knee_right
+        weight: 1
+      - path: armature/leg_left
+        weight: 1
+      - path: armature/leg_left/bottom_leg_left
+        weight: 1
+      - path: armature/leg_right
+        weight: 1
+      - path: armature/leg_right/bottom_leg_right
+        weight: 1
+      - path: armature/torso
+        weight: 1
+      - path: armature/torso/head
+        weight: 1
+      - path: body_final_001
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: mana_sword_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hit
+      takeName: Default Take
+      firstFrame: 95
+      lastFrame: 111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/arm_left_001
+        weight: 1
+      - path: armature/arm_left_001/forearm_left
+        weight: 1
+      - path: armature/arm_right
+        weight: 1
+      - path: armature/arm_right/forearm_right
+        weight: 1
+      - path: armature/elbow_left
+        weight: 1
+      - path: armature/elbow_right
+        weight: 1
+      - path: armature/hand_left
+        weight: 1
+      - path: armature/hand_right
+        weight: 1
+      - path: armature/heel_left
+        weight: 1
+      - path: armature/heel_left/foot_left
+        weight: 1
+      - path: armature/heel_right
+        weight: 1
+      - path: armature/heel_right/foot_right
+        weight: 1
+      - path: armature/knee_left
+        weight: 1
+      - path: armature/knee_right
+        weight: 1
+      - path: armature/leg_left
+        weight: 1
+      - path: armature/leg_left/bottom_leg_left
+        weight: 1
+      - path: armature/leg_right
+        weight: 1
+      - path: armature/leg_right/bottom_leg_right
+        weight: 1
+      - path: armature/torso
+        weight: 1
+      - path: armature/torso/head
+        weight: 1
+      - path: body_final_001
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: mana_sword_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack
+      takeName: Default Take
+      firstFrame: 129
+      lastFrame: 148
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: armature
+        weight: 1
+      - path: armature/arm_left_001
+        weight: 1
+      - path: armature/arm_left_001/forearm_left
+        weight: 1
+      - path: armature/arm_right
+        weight: 1
+      - path: armature/arm_right/forearm_right
+        weight: 1
+      - path: armature/elbow_left
+        weight: 1
+      - path: armature/elbow_right
+        weight: 1
+      - path: armature/hand_left
+        weight: 1
+      - path: armature/hand_right
+        weight: 1
+      - path: armature/heel_left
+        weight: 1
+      - path: armature/heel_left/foot_left
+        weight: 1
+      - path: armature/heel_right
+        weight: 1
+      - path: armature/heel_right/foot_right
+        weight: 1
+      - path: armature/knee_left
+        weight: 1
+      - path: armature/knee_right
+        weight: 1
+      - path: armature/leg_left
+        weight: 1
+      - path: armature/leg_left/bottom_leg_left
+        weight: 1
+      - path: armature/leg_right
+        weight: 1
+      - path: armature/leg_right/bottom_leg_right
+        weight: 1
+      - path: armature/torso
+        weight: 1
+      - path: armature/torso/head
+        weight: 1
+      - path: body_final_001
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: mana_sword_hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;UNITY_64;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -46,19 +46,78 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AttackScript.cs" />
+     <Compile Include="Assets\Scripts\BallScript.cs" />
+     <Compile Include="Assets\Scripts\BigSpiderScript.cs" />
+     <Compile Include="Assets\Scripts\BridgeScript.cs" />
+     <Compile Include="Assets\Scripts\BridgeTrigger.cs" />
+     <Compile Include="Assets\Scripts\CameraChangeScript.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\CameraController3D.cs" />
+     <Compile Include="Assets\Scripts\CameraController3DFinalIntro.cs" />
+     <Compile Include="Assets\Scripts\CameraPong.cs" />
+     <Compile Include="Assets\Scripts\CoinScript.cs" />
+     <Compile Include="Assets\Scripts\Cutscene.cs" />
+     <Compile Include="Assets\Scripts\CutsceneScript.cs" />
+     <Compile Include="Assets\Scripts\DeathScript.cs" />
+     <Compile Include="Assets\Scripts\DoorRiddleTrigger.cs" />
+     <Compile Include="Assets\Scripts\DoorTalk.cs" />
+     <Compile Include="Assets\Scripts\DoorTrigger.cs" />
+     <Compile Include="Assets\Scripts\EndCutscene.cs" />
+     <Compile Include="Assets\Scripts\HealthScript.cs" />
+     <Compile Include="Assets\Scripts\HealthScript2.cs" />
      <Compile Include="Assets\Scripts\HeroController.cs" />
+     <Compile Include="Assets\Scripts\HitBump.cs" />
+     <Compile Include="Assets\Scripts\IdleScript.cs" />
+     <Compile Include="Assets\Scripts\InitTriggerTalk.cs" />
+     <Compile Include="Assets\Scripts\InitTriggerTalk2.cs" />
+     <Compile Include="Assets\Scripts\KeyTrigger.cs" />
+     <Compile Include="Assets\Scripts\LoadFinalBoss.cs" />
+     <Compile Include="Assets\Scripts\LoadFinalBossIntro.cs" />
+     <Compile Include="Assets\Scripts\LoadManaSwamp.cs" />
      <Compile Include="Assets\Scripts\ManaGhostController.cs" />
      <Compile Include="Assets\Scripts\ManaKnightController.cs" />
+     <Compile Include="Assets\Scripts\Multiplayer\BallMultiplayer.cs" />
+     <Compile Include="Assets\Scripts\Multiplayer\CameraPongMultiplayer.cs" />
+     <Compile Include="Assets\Scripts\Multiplayer\CoinScriptMultiplayer.cs" />
+     <Compile Include="Assets\Scripts\Multiplayer\HealthMultiplayer.cs" />
+     <Compile Include="Assets\Scripts\Multiplayer\PongControllerP1.cs" />
+     <Compile Include="Assets\Scripts\Multiplayer\PongControllerP2.cs" />
+     <Compile Include="Assets\Scripts\NomedIntroScript.cs" />
+     <Compile Include="Assets\Scripts\NomedScript.cs" />
+     <Compile Include="Assets\Scripts\NomedTauntTrigger.cs" />
+     <Compile Include="Assets\Scripts\OpenDoor.cs" />
+     <Compile Include="Assets\Scripts\OpenDoorRiddle.cs" />
+     <Compile Include="Assets\Scripts\PendulumScript.cs" />
+     <Compile Include="Assets\Scripts\PlayGameScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerAttack.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\PlayerController2.cs" />
+     <Compile Include="Assets\Scripts\PongHealthScript.cs" />
+     <Compile Include="Assets\Scripts\PongPlayerController.cs" />
+     <Compile Include="Assets\Scripts\PotionScript.cs" />
+     <Compile Include="Assets\Scripts\SilaTalking.cs" />
+     <Compile Include="Assets\Scripts\SilaTalking2.cs" />
+     <Compile Include="Assets\Scripts\SpiderTalk.cs" />
+     <Compile Include="Assets\Scripts\SwampScript.cs" />
+     <Compile Include="Assets\Scripts\TopBridgeTrigger.cs" />
+     <Compile Include="Assets\Scripts\TrollRiddle.cs" />
+     <Compile Include="Assets\Scripts\WebBullet.cs" />
+     <Compile Include="Assets\Scripts\WebBulletShooter.cs" />
+     <Compile Include="Assets\Scripts\WebDoorScript.cs" />
+     <Compile Include="Assets\torch\scene\script\TorchSlider.cs" />
+     <Compile Include="Assets\torch\scene\script\Torchslider2.cs" />
+     <Compile Include="Assets\torch\scripts\Torchelight.cs" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Shaders\shield.shader" />
+     <None Include="Assets\torch\readme.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />

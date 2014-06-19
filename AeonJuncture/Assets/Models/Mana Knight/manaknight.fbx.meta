@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 30eecb480bcf3de4d956abf6d26481b0
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arm_L
+    100002: arm_R
+    100004: Armature
+    100006: forearm_L
+    100008: forearm_R
+    100010: head
+    100012: KNIGHT_002
+    100014: KNIGHT_011
+    100016: //RootNode
+    100018: shield
+    100020: torso
+    400000: arm_L
+    400002: arm_R
+    400004: Armature
+    400006: forearm_L
+    400008: forearm_R
+    400010: head
+    400012: KNIGHT_002
+    400014: KNIGHT_011
+    400016: //RootNode
+    400018: shield
+    400020: torso
+    4300000: KNIGHT_002
+    4300002: KNIGHT_011
+    7400000: Default Take
+    7400002: ArmatureAction_003
+    7400004: idle
+    7400006: attack
+    7400008: defense_transition
+    7400010: defense
+    7400012: defense_to_idle_transition
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: KNIGHT_002
+    13700002: KNIGHT_011
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/arm_L
+        weight: 1
+      - path: Armature/arm_L/forearm_L
+        weight: 1
+      - path: Armature/arm_R
+        weight: 1
+      - path: Armature/arm_R/forearm_R
+        weight: 1
+      - path: Armature/head
+        weight: 1
+      - path: Armature/shield
+        weight: 1
+      - path: Armature/torso
+        weight: 1
+      - path: KNIGHT_002
+        weight: 1
+      - path: KNIGHT_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ArmatureAction_003
+      takeName: ArmatureAction_003
+      firstFrame: 1
+      lastFrame: 174
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/arm_L
+        weight: 1
+      - path: Armature/arm_L/forearm_L
+        weight: 1
+      - path: Armature/arm_R
+        weight: 1
+      - path: Armature/arm_R/forearm_R
+        weight: 1
+      - path: Armature/head
+        weight: 1
+      - path: Armature/shield
+        weight: 1
+      - path: Armature/torso
+        weight: 1
+      - path: KNIGHT_002
+        weight: 1
+      - path: KNIGHT_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Default Take
+      firstFrame: 2
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/arm_L
+        weight: 1
+      - path: Armature/arm_L/forearm_L
+        weight: 1
+      - path: Armature/arm_R
+        weight: 1
+      - path: Armature/arm_R/forearm_R
+        weight: 1
+      - path: Armature/head
+        weight: 1
+      - path: Armature/shield
+        weight: 1
+      - path: Armature/torso
+        weight: 1
+      - path: KNIGHT_002
+        weight: 1
+      - path: KNIGHT_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Default Take
+      firstFrame: 150
+      lastFrame: 175
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/arm_L
+        weight: 1
+      - path: Armature/arm_L/forearm_L
+        weight: 1
+      - path: Armature/arm_R
+        weight: 1
+      - path: Armature/arm_R/forearm_R
+        weight: 1
+      - path: Armature/head
+        weight: 1
+      - path: Armature/shield
+        weight: 1
+      - path: Armature/torso
+        weight: 1
+      - path: KNIGHT_002
+        weight: 1
+      - path: KNIGHT_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: defense_transition
+      takeName: Default Take
+      firstFrame: 67
+      lastFrame: 78
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/arm_L
+        weight: 1
+      - path: Armature/arm_L/forearm_L
+        weight: 1
+      - path: Armature/arm_R
+        weight: 1
+      - path: Armature/arm_R/forearm_R
+        weight: 1
+      - path: Armature/head
+        weight: 1
+      - path: Armature/shield
+        weight: 1
+      - path: Armature/torso
+        weight: 1
+      - path: KNIGHT_002
+        weight: 1
+      - path: KNIGHT_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: defense
+      takeName: Default Take
+      firstFrame: 89
+      lastFrame: 97
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/arm_L
+        weight: 1
+      - path: Armature/arm_L/forearm_L
+        weight: 1
+      - path: Armature/arm_R
+        weight: 1
+      - path: Armature/arm_R/forearm_R
+        weight: 1
+      - path: Armature/head
+        weight: 1
+      - path: Armature/shield
+        weight: 1
+      - path: Armature/torso
+        weight: 1
+      - path: KNIGHT_002
+        weight: 1
+      - path: KNIGHT_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: defense_to_idle_transition
+      takeName: Default Take
+      firstFrame: 112
+      lastFrame: 123
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/arm_L
+        weight: 1
+      - path: Armature/arm_L/forearm_L
+        weight: 1
+      - path: Armature/arm_R
+        weight: 1
+      - path: Armature/arm_R/forearm_R
+        weight: 1
+      - path: Armature/head
+        weight: 1
+      - path: Armature/shield
+        weight: 1
+      - path: Armature/torso
+        weight: 1
+      - path: KNIGHT_002
+        weight: 1
+      - path: KNIGHT_011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

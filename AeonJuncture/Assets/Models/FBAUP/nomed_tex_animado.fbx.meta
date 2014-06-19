@@ -1,0 +1,443 @@
+fileFormatVersion: 2
+guid: 599a407595cf53d47bc59cd91708dace
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arm_left
+    100002: arm_right
+    100004: Armature
+    100006: Camera
+    100008: chest
+    100010: elbow_left_IK
+    100012: elbow_right_IK
+    100014: foot_left
+    100016: foot_left_IK
+    100018: foot_right
+    100020: foot_right_IK
+    100022: foream_left
+    100024: forearm_right
+    100026: hand_left
+    100028: hand_left_IK
+    100030: hand_right
+    100032: hand_right_IK
+    100034: head
+    100036: knee_left_IK
+    100038: knee_right_IK
+    100040: leg_left
+    100042: leg_right
+    100044: nomed
+    100046: nomed_manasword
+    100048: //RootNode
+    100050: thigh_left
+    100052: thigh_right
+    400000: arm_left
+    400002: arm_right
+    400004: Armature
+    400006: Camera
+    400008: chest
+    400010: elbow_left_IK
+    400012: elbow_right_IK
+    400014: foot_left
+    400016: foot_left_IK
+    400018: foot_right
+    400020: foot_right_IK
+    400022: foream_left
+    400024: forearm_right
+    400026: hand_left
+    400028: hand_left_IK
+    400030: hand_right
+    400032: hand_right_IK
+    400034: head
+    400036: knee_left_IK
+    400038: knee_right_IK
+    400040: leg_left
+    400042: leg_right
+    400044: nomed
+    400046: nomed_manasword
+    400048: //RootNode
+    400050: thigh_left
+    400052: thigh_right
+    2300000: nomed_manasword
+    3300000: nomed_manasword
+    4300000: nomed
+    4300002: nomed_manasword
+    7400000: Default Take
+    7400002: ArmatureAction
+    7400004: IdleNomed
+    7400006: TauntNomed
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: nomed
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 174
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/arm_left
+        weight: 1
+      - path: Armature/arm_left/foream_left
+        weight: 1
+      - path: Armature/arm_left/foream_left/hand_left
+        weight: 1
+      - path: Armature/arm_right
+        weight: 1
+      - path: Armature/arm_right/forearm_right
+        weight: 1
+      - path: Armature/arm_right/forearm_right/hand_right
+        weight: 1
+      - path: Armature/chest
+        weight: 1
+      - path: Armature/chest/head
+        weight: 1
+      - path: Armature/elbow_left_IK
+        weight: 1
+      - path: Armature/elbow_right_IK
+        weight: 1
+      - path: Armature/foot_left_IK
+        weight: 1
+      - path: Armature/foot_right_IK
+        weight: 1
+      - path: Armature/hand_left_IK
+        weight: 1
+      - path: Armature/hand_right_IK
+        weight: 1
+      - path: Armature/knee_left_IK
+        weight: 1
+      - path: Armature/knee_right_IK
+        weight: 1
+      - path: Armature/thigh_left
+        weight: 1
+      - path: Armature/thigh_left/leg_left
+        weight: 1
+      - path: Armature/thigh_left/leg_left/foot_left
+        weight: 1
+      - path: Armature/thigh_right
+        weight: 1
+      - path: Armature/thigh_right/leg_right
+        weight: 1
+      - path: Armature/thigh_right/leg_right/foot_right
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: nomed
+        weight: 1
+      - path: nomed_manasword
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ArmatureAction
+      takeName: ArmatureAction
+      firstFrame: 27
+      lastFrame: 166
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/arm_left
+        weight: 1
+      - path: Armature/arm_left/foream_left
+        weight: 1
+      - path: Armature/arm_left/foream_left/hand_left
+        weight: 1
+      - path: Armature/arm_right
+        weight: 1
+      - path: Armature/arm_right/forearm_right
+        weight: 1
+      - path: Armature/arm_right/forearm_right/hand_right
+        weight: 1
+      - path: Armature/chest
+        weight: 1
+      - path: Armature/chest/head
+        weight: 1
+      - path: Armature/elbow_left_IK
+        weight: 1
+      - path: Armature/elbow_right_IK
+        weight: 1
+      - path: Armature/foot_left_IK
+        weight: 1
+      - path: Armature/foot_right_IK
+        weight: 1
+      - path: Armature/hand_left_IK
+        weight: 1
+      - path: Armature/hand_right_IK
+        weight: 1
+      - path: Armature/knee_left_IK
+        weight: 1
+      - path: Armature/knee_right_IK
+        weight: 1
+      - path: Armature/thigh_left
+        weight: 1
+      - path: Armature/thigh_left/leg_left
+        weight: 1
+      - path: Armature/thigh_left/leg_left/foot_left
+        weight: 1
+      - path: Armature/thigh_right
+        weight: 1
+      - path: Armature/thigh_right/leg_right
+        weight: 1
+      - path: Armature/thigh_right/leg_right/foot_right
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: nomed
+        weight: 1
+      - path: nomed_manasword
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdleNomed
+      takeName: Default Take
+      firstFrame: 103
+      lastFrame: 167
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/arm_left
+        weight: 1
+      - path: Armature/arm_left/foream_left
+        weight: 1
+      - path: Armature/arm_left/foream_left/hand_left
+        weight: 1
+      - path: Armature/arm_right
+        weight: 1
+      - path: Armature/arm_right/forearm_right
+        weight: 1
+      - path: Armature/arm_right/forearm_right/hand_right
+        weight: 1
+      - path: Armature/chest
+        weight: 1
+      - path: Armature/chest/head
+        weight: 1
+      - path: Armature/elbow_left_IK
+        weight: 1
+      - path: Armature/elbow_right_IK
+        weight: 1
+      - path: Armature/foot_left_IK
+        weight: 1
+      - path: Armature/foot_right_IK
+        weight: 1
+      - path: Armature/hand_left_IK
+        weight: 1
+      - path: Armature/hand_right_IK
+        weight: 1
+      - path: Armature/knee_left_IK
+        weight: 1
+      - path: Armature/knee_right_IK
+        weight: 1
+      - path: Armature/thigh_left
+        weight: 1
+      - path: Armature/thigh_left/leg_left
+        weight: 1
+      - path: Armature/thigh_left/leg_left/foot_left
+        weight: 1
+      - path: Armature/thigh_right
+        weight: 1
+      - path: Armature/thigh_right/leg_right
+        weight: 1
+      - path: Armature/thigh_right/leg_right/foot_right
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: nomed
+        weight: 1
+      - path: nomed_manasword
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: TauntNomed
+      takeName: Default Take
+      firstFrame: 28
+      lastFrame: 94
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/arm_left
+        weight: 1
+      - path: Armature/arm_left/foream_left
+        weight: 1
+      - path: Armature/arm_left/foream_left/hand_left
+        weight: 1
+      - path: Armature/arm_right
+        weight: 1
+      - path: Armature/arm_right/forearm_right
+        weight: 1
+      - path: Armature/arm_right/forearm_right/hand_right
+        weight: 1
+      - path: Armature/chest
+        weight: 1
+      - path: Armature/chest/head
+        weight: 1
+      - path: Armature/elbow_left_IK
+        weight: 1
+      - path: Armature/elbow_right_IK
+        weight: 1
+      - path: Armature/foot_left_IK
+        weight: 1
+      - path: Armature/foot_right_IK
+        weight: 1
+      - path: Armature/hand_left_IK
+        weight: 1
+      - path: Armature/hand_right_IK
+        weight: 1
+      - path: Armature/knee_left_IK
+        weight: 1
+      - path: Armature/knee_right_IK
+        weight: 1
+      - path: Armature/thigh_left
+        weight: 1
+      - path: Armature/thigh_left/leg_left
+        weight: 1
+      - path: Armature/thigh_left/leg_left/foot_left
+        weight: 1
+      - path: Armature/thigh_right
+        weight: 1
+      - path: Armature/thigh_right/leg_right
+        weight: 1
+      - path: Armature/thigh_right/leg_right/foot_right
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: nomed
+        weight: 1
+      - path: nomed_manasword
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

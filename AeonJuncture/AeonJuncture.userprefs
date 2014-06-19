@@ -1,11 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ManaKnightController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerController.cs">
     <Files>
-      <File FileName="AeonJuncture.sln" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ManaGhostController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ManaKnightController.cs" Line="57" Column="6" />
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerController2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PongPlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Multiplayer\PongControllerP1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Multiplayer\PongControllerP2.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

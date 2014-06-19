@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: 7d909b0a32b6a794faf57d2bed50f5d7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone_001
+    100004: Camera
+    100006: mask
+    100008: //RootNode
+    100010: tentacle_bottom_left_1
+    100012: tentacle_bottom_left_2
+    100014: tentacle_bottom_left_3
+    100016: tentacle_bottom_left_4
+    100018: tentacle_bottom_left_5
+    100020: tentacle_bottom_right_1
+    100022: tentacle_bottom_right_2
+    100024: tentacle_bottom_right_3
+    100026: tentacle_bottom_right_4
+    100028: tentacle_bottom_right_5
+    100030: tentacle_top_left_1
+    100032: tentacle_top_left_2
+    100034: tentacle_top_left_3
+    100036: tentacle_top_left_4
+    100038: tentacle_top_left_5
+    100040: tentacle_top_right_1
+    100042: tentacle_top_right_2
+    100044: tentacle_top_right_3
+    100046: tentacle_top_right_4
+    100048: tentacle_top_right_5
+    400000: Armature
+    400002: Bone_001
+    400004: Camera
+    400006: mask
+    400008: //RootNode
+    400010: tentacle_bottom_left_1
+    400012: tentacle_bottom_left_2
+    400014: tentacle_bottom_left_3
+    400016: tentacle_bottom_left_4
+    400018: tentacle_bottom_left_5
+    400020: tentacle_bottom_right_1
+    400022: tentacle_bottom_right_2
+    400024: tentacle_bottom_right_3
+    400026: tentacle_bottom_right_4
+    400028: tentacle_bottom_right_5
+    400030: tentacle_top_left_1
+    400032: tentacle_top_left_2
+    400034: tentacle_top_left_3
+    400036: tentacle_top_left_4
+    400038: tentacle_top_left_5
+    400040: tentacle_top_right_1
+    400042: tentacle_top_right_2
+    400044: tentacle_top_right_3
+    400046: tentacle_top_right_4
+    400048: tentacle_top_right_5
+    4300000: mask
+    7400000: Default Take
+    7400002: ArmatureAction
+    7400004: IdleMask
+    7400006: ChasingMask
+    7400008: InitChasing
+    7400010: EndChasing
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: mask
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 299
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_001
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3/tentacle_bottom_left_4
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3/tentacle_bottom_left_4/tentacle_bottom_left_5
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3/tentacle_bottom_right_4
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3/tentacle_bottom_right_4/tentacle_bottom_right_5
+        weight: 1
+      - path: Armature/tentacle_top_left_1
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3/tentacle_top_left_4
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3/tentacle_top_left_4/tentacle_top_left_5
+        weight: 1
+      - path: Armature/tentacle_top_right_1
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3/tentacle_top_right_4
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3/tentacle_top_right_4/tentacle_top_right_5
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: mask
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ArmatureAction
+      takeName: ArmatureAction
+      firstFrame: 29
+      lastFrame: 269
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_001
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3/tentacle_bottom_left_4
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3/tentacle_bottom_left_4/tentacle_bottom_left_5
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3/tentacle_bottom_right_4
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3/tentacle_bottom_right_4/tentacle_bottom_right_5
+        weight: 1
+      - path: Armature/tentacle_top_left_1
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3/tentacle_top_left_4
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3/tentacle_top_left_4/tentacle_top_left_5
+        weight: 1
+      - path: Armature/tentacle_top_right_1
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3/tentacle_top_right_4
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3/tentacle_top_right_4/tentacle_top_right_5
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: mask
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: IdleMask
+      takeName: Default Take
+      firstFrame: 30
+      lastFrame: 87
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_001
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3/tentacle_bottom_left_4
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3/tentacle_bottom_left_4/tentacle_bottom_left_5
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3/tentacle_bottom_right_4
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3/tentacle_bottom_right_4/tentacle_bottom_right_5
+        weight: 1
+      - path: Armature/tentacle_top_left_1
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3/tentacle_top_left_4
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3/tentacle_top_left_4/tentacle_top_left_5
+        weight: 1
+      - path: Armature/tentacle_top_right_1
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3/tentacle_top_right_4
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3/tentacle_top_right_4/tentacle_top_right_5
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: mask
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ChasingMask
+      takeName: Default Take
+      firstFrame: 197
+      lastFrame: 212
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_001
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3/tentacle_bottom_left_4
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3/tentacle_bottom_left_4/tentacle_bottom_left_5
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3/tentacle_bottom_right_4
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3/tentacle_bottom_right_4/tentacle_bottom_right_5
+        weight: 1
+      - path: Armature/tentacle_top_left_1
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3/tentacle_top_left_4
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3/tentacle_top_left_4/tentacle_top_left_5
+        weight: 1
+      - path: Armature/tentacle_top_right_1
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3/tentacle_top_right_4
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3/tentacle_top_right_4/tentacle_top_right_5
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: mask
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: InitChasing
+      takeName: Default Take
+      firstFrame: 163
+      lastFrame: 196
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_001
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3/tentacle_bottom_left_4
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3/tentacle_bottom_left_4/tentacle_bottom_left_5
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3/tentacle_bottom_right_4
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3/tentacle_bottom_right_4/tentacle_bottom_right_5
+        weight: 1
+      - path: Armature/tentacle_top_left_1
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3/tentacle_top_left_4
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3/tentacle_top_left_4/tentacle_top_left_5
+        weight: 1
+      - path: Armature/tentacle_top_right_1
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3/tentacle_top_right_4
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3/tentacle_top_right_4/tentacle_top_right_5
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: mask
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EndChasing
+      takeName: Default Take
+      firstFrame: 244
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone_001
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3/tentacle_bottom_left_4
+        weight: 1
+      - path: Armature/tentacle_bottom_left_1/tentacle_bottom_left_2/tentacle_bottom_left_3/tentacle_bottom_left_4/tentacle_bottom_left_5
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3/tentacle_bottom_right_4
+        weight: 1
+      - path: Armature/tentacle_bottom_right_1/tentacle_bottom_right_2/tentacle_bottom_right_3/tentacle_bottom_right_4/tentacle_bottom_right_5
+        weight: 1
+      - path: Armature/tentacle_top_left_1
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3/tentacle_top_left_4
+        weight: 1
+      - path: Armature/tentacle_top_left_1/tentacle_top_left_2/tentacle_top_left_3/tentacle_top_left_4/tentacle_top_left_5
+        weight: 1
+      - path: Armature/tentacle_top_right_1
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3/tentacle_top_right_4
+        weight: 1
+      - path: Armature/tentacle_top_right_1/tentacle_top_right_2/tentacle_top_right_3/tentacle_top_right_4/tentacle_top_right_5
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: mask
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
